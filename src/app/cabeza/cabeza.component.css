@@ -1,0 +1,100 @@
+body
+{
+    padding: 0px;
+    margin: 0;
+}
+
+.bg-image, .bg-slideshow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.bg-fixed {
+    background-attachment: fixed;
+}
+.fullheight {
+    height: 100vh;
+}
+
+.text-muted
+{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/*bara*/
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 2rem;
+}
+.progress-bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #000000;
+    transition: width .6s ease;
+}
+/*fin bara*/
+
+.card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 260px;
+}
+
+
+#cont1
+{
+    background-image: url(../../assets/img/fondo.jpg);
+    display: block;
+   
+}
+#con2
+{
+    background-color: rgb(108, 117, 125);
+}
+
+#cuadro
+{
+    background-color: rgb(108, 117, 125);
+}
+
+#configbtn svg
+{
+    animation: 2s reload infinite;
+}
+@keyframes reload 
+{
+    0%
+    {
+        transform: rotate(360deg);
+    }
+    100%
+    {
+        transform: rotate(1000deg);
+    }
+    
+}
+
+#textt
+{
+    display: none;
+}
+#cardop
+{
+    width: 35px;
+}
